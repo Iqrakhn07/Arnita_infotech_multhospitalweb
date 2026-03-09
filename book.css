@@ -1,0 +1,149 @@
+
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4f8f8; 
+}
+
+
+header { 
+    background-color: #51879e; 
+    color: white; 
+    padding: 20px; 
+    position: relative;
+    z-index: 10;
+    margin-top: 0;
+}
+
+.logo { 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+
+.mult { 
+    font-family: 'Brush Script MT', cursive; 
+    margin-right: 5px; 
+}
+
+.hospital { 
+    font-family: Arial, sans-serif; 
+}
+
+
+.sidebar {
+    width: 200px;
+    background-color: #d7e6e6;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+    z-index: 5;
+}
+
+.sidebar a {
+    display: block;
+    background-color: #e6f2f2;
+    color: #333;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid #444;
+}
+
+.sidebar a:hover {
+    background-color: #51879e;
+    color: white;
+}
+
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.container { 
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background: white; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+
+
+h2 {
+    color: #124c66;
+    font-family: Times New Roman;
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #124c66;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.form-group { 
+    margin-bottom: 15px; 
+}
+
+label { 
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold; 
+    color: #124c66;
+}
+
+input, select { 
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #124c66;
+    box-shadow: 0 0 5px rgba(81, 135, 158, 0.3);
+}
+
+button { 
+    background-color: #28a745; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 16px; 
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+button:hover { 
+    background-color: #124c66; 
+}
+
+.error { 
+    color: red; 
+    font-size: 0.9em; 
+    margin-top: 5px;
+}
+
+
+.booking-info {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 4px solid #51879e;
+}
+
+.booking-info p {
+    color: #124c66;
+    font-size: 14px;
+    line-height: 1.6;
+}
